@@ -2,7 +2,7 @@
 ============
 
 ##Objectives
-In this project we're going to build off of the mini project from this morning. During the mini project we built a very composable Todo List. What we're going to do with this project is take our Todo List and create an App that allows us to have a collection of Todo Lists. The end result will be something like this, (URL TO FINAL PROJECT).
+In this project we're going to build off of the mini project from this morning. During the mini project we built a very composable Todo List. What we're going to do with this project is take our Todo List and create an App that allows us to have a collection of Todo Lists. The end result will be something [LIKE THIS](http://reactweek.com/projects/todo-collection).
 
 Here's an image showing the final product.
 ![Todo Collection Finished](http://tylermcginnis.com/ReactWeek/todo-collection-final.png)
