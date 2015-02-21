@@ -142,7 +142,7 @@ If Webpack is running you should now be able to add and remove lists.
 
 The very last step you'll need to do is make it so each Todolist can now have its own background color which will be specified when the user creates the new todolist. If you've made it this far that means you're doing really well. I'm not going to walk through steps on how to do this because often times these steps can be crunches to your real education (when you're wanting to rip your hair out because something isn't working). 
 
-Take a glance at the full sample (URL HERE) and then take an attempt on how you'd add this functionality. 
+Take a glance at the full [sample](http://reactweek.com/projects/todo-collection) and then take an attempt on how you'd add this functionality. 
 
 As always, mentors are here to help you if you get stuck.
 
