@@ -28,7 +28,7 @@ var ListContainer = React.createClass({
 				marginTop: 10,
 				marginBottom: 10,
 				borderRadius: 5,
-				background: "green"
+				background: this.props.bgColor
 			},
 			removeList: {
 				fontSize: 20,

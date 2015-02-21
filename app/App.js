@@ -26,7 +26,7 @@ var App = React.createClass({
 	render: function(){
 		var listComponents = this.state.lists.map(function(list, index){
 			return (
-				<ListContainer title={list.name} key={index} remove={this.removeList} index={index} />
+				<ListContainer title={list.name} key={index} remove={this.removeList} index={index} bgColor={list.bgColor} />
 			)
 		}.bind(this))
 		return (

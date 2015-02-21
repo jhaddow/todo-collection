@@ -3,7 +3,8 @@ var SelectColor = require('./SelectColor');
 var AddList = React.createClass({
 	getInitialState: function() {
 		return {
-			listName: ''
+			listName: '',
+			bgColor: ''
 		}
 	},
 	handleChange: function(e) {
@@ -12,9 +13,15 @@ var AddList = React.createClass({
 		})
 	},
 	handleSubmit: function(e) {
-		this.props.add({name: this.state.listName});
+		this.props.add({name: this.state.listName, bgColor: this.state.bgColor});
 		this.setState({
 			listName: ''
+		});
+	},
+	setListColor: function(color){
+		this.setState({
+			listName: this.state.listName,
+			bgColor: color
 		});
 	},
 	render: function() {
@@ -31,7 +38,7 @@ var AddList = React.createClass({
 					onClick={this.handleSubmit}>
 					Submit
 				</button>
-				<SelectColor />
+				<SelectColor setColor={this.setListColor} />
 			</div>
 		)
 	}

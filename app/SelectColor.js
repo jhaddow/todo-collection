@@ -13,9 +13,13 @@ var SelectColor = React.createClass({
 			selectedColor: 'rgb(255, 172, 236)'
 		}
 	},
+	componentDidMount: function(){
+		this.props.setColor(this.state.selectedColor);
+	},
 	changeColor: function(index) {
 		var colors = this.state.colors;
 		var newColor = colors[index]
+		this.props.setColor(newColor)
 		this.setState({
 			colors: colors,
 			selectedColor: newColor
