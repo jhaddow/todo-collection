@@ -23,11 +23,11 @@ var ListContainer = React.createClass({
 	render: function() {
 		return (
 			
-					<div className="col-sm-6 col-md-offset-3">
-						<h3 className='text-center'> Todo List </h3>
-						<AddItem add={this.handleAddItem} />
-						<List remove={this.handleRemoveItem} items={this.state.list} />
-					</div>
+				<div className="col-sm-6 col-md-offset-3">
+					<h3 className='text-center'> Todo List </h3>
+					<AddItem add={this.handleAddItem} />
+					<List remove={this.handleRemoveItem} items={this.state.list} />
+				</div>
 				
 		)
 	}

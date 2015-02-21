@@ -18939,11 +18939,11 @@
 		render: function() {
 			return (
 				
-						React.createElement("div", {className: "col-sm-6 col-md-offset-3"}, 
-							React.createElement("h3", {className: "text-center"}, " Todo List "), 
-							React.createElement(AddItem, {add: this.handleAddItem}), 
-							React.createElement(List, {remove: this.handleRemoveItem, items: this.state.list})
-						)
+					React.createElement("div", {className: "col-sm-6 col-md-offset-3"}, 
+						React.createElement("h3", {className: "text-center"}, " Todo List "), 
+						React.createElement(AddItem, {add: this.handleAddItem}), 
+						React.createElement(List, {remove: this.handleRemoveItem, items: this.state.list})
+					)
 					
 			)
 		}
