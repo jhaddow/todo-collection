@@ -27,8 +27,8 @@ var App = React.createClass({
 		var listComponents = this.state.lists.map(function(list, index){
 			return (
 				<ListContainer title={list.name} key={index} remove={this.removeList} index={index} bgColor={list.bgColor} />
-			)
-		}.bind(this))
+			);
+		}.bind(this));
 		return (
 			<div className='container'>
 				<div className='row'>
@@ -36,8 +36,8 @@ var App = React.createClass({
 					{listComponents}
 				</div>
 			</div>
-		)
+		);
 	}
-})
+});
 
-React.render(<App />, document.getElementById('app'))
+React.render(<App />, document.getElementById('app'));
